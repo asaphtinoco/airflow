@@ -1,6 +1,6 @@
 #definindo a imagem de base - start point 
 FROM spark-base:latest
-LABEL maintainer = 'Asaph Tinoco'
+LABEL maintainer = "MarcLamberti"
 
 #Definindo as variaveis que serão usadas para a instalação da imagem no container
 ARG AIRFLOW_VERSION=1.10.12
