@@ -1,5 +1,5 @@
 #definindo a imagem de base - start point 
-FROM spark-base:latest
+FROM bde/spark-base:latest
 LABEL maintainer = "Asaph Tinoco"
 
 #Definindo as variaveis que serão usadas para a instalação da imagem no container
